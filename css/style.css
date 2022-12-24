@@ -1,7 +1,182 @@
-.booki-header-navbar-menu{
-    list-style-type : none;
+
+/* ================================================================================================= */
+/* ============================================ GENERAL ============================================ */
+/* ================================================================================================= */
+body{
+    margin: 0 auto;
+    width : 960px ;
 }
 
-.booki-recherche-title{
-    font-weight: bold;
+header{
+    width :100% ;
 }
+
+footer{
+    /* position: absolute; */
+    margin-bottom: 7px;
+    margin-left: 48px;
+    margin-right: 53px;
+    margin-top: 75px;
+    left: 3.33%;
+    right: 3.68%;
+    top: 0%;
+    bottom: -10.84%;
+    background: #F2F2F2;
+}
+
+
+
+
+/* ================================================================================================= */
+/* ============================================= HEADER ============================================ */
+/* ================================================================================================= */
+
+
+
+.booki-header-site-logo{
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.booki-header-filters-main-btn{
+    border: 2px solid #DEEBFF;
+    border-radius: 25px;
+    padding:0.5em;
+    max-width: 8%;
+    float: left;
+
+}
+
+
+/* ================================================================================================= */
+/* ========================================== HEBERGEMENTS ========================================= */
+/* ================================================================================================= */
+
+.booki-home-housing{
+    /* position: absolute; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+
+
+.booki-home-housing-card{
+    /* position: absolute; */
+    width: 246px;
+    height: 199px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    /* White */
+    background: #FFFFFF;
+    border-radius: 20px;    
+}
+
+.booki-home-housing-card-image{
+    box-sizing: content-box;
+    width: 100%;
+    border: 5px solid #FFFFFF;
+    max-height: 124px;
+
+}
+
+
+/* ================================================================================================= */
+/* =========================================== POPULAIRES ========================================== */
+/* ================================================================================================= */
+
+.booki-home-popular{
+    /* position: absolute; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #F2F2F2;
+    border-radius: 20px;    
+}
+
+
+
+.booki-home-popular-card{
+    /* position: absolute; */
+    width: 343px;
+    height: 144px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+.booki-home-popular-card-image{
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 137px;
+    height: 144px;
+    border: 5px solid #FFFFFF; 
+}
+
+
+/* ================================================================================================= */
+/* ============================================ ACTIVITES ========================================== */
+/* ================================================================================================= */
+
+
+.booki-home-activities{
+    /* position: absolute; */
+    width: 100%;
+}
+
+
+.booki-home-activities-card{
+    width: 302px;
+    height: 444.51px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    /* background: url(reno-laithienne-QUgJhdY5Fyk-unsplash.jpg); */
+    border-radius: 20px;
+}
+
+.booki-home-activities-card-image{
+    box-sizing: content-box;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 389px;
+    width: 302px;
+
+
+
+
+    
+}
+
+
+/* ================================================================================================= */
+/* ============================================ FOOTER ========================================== */
+/* ================================================================================================= */
+
+
+
+
+
+
+
