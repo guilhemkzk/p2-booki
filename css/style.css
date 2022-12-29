@@ -448,12 +448,12 @@ a{
 /* ============================================ ACTIVITES ========================================== */
 /* ================================================================================================= */
 
-.booki-home-activities{
+/* .booki-home-activities{
     display: flex;
     flex-direction: column;
     width: 100%;
 
-}
+} */
 
 .booki-home-activities-title{
     padding-top: 1em;
@@ -461,28 +461,42 @@ a{
     padding-bottom: 1em;
 }
 
+.booki-home-activities{
+    display : grid;
+}
+
 .booki-home-activities-cards{
+    width: 100%;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80%;
+    gap : 3%;
+    
+}
+
+
+/* .booki-home-activities-cards{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 
-}
+} */
 
 
 .booki-home-activities-card{
     border-radius: 20px;
     box-shadow: 2px 2px 5px 2px #F2F2F2; /* offset-x | offset-y | blur-radius | spread-radius | color */
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .booki-home-activities-card-image-container{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: stretch; */
     height: 100%;
-    width: 14em;
+    width: 100%;
 }
 
 .booki-home-activities-card-image{
@@ -495,11 +509,18 @@ a{
 }
 
 .booki-home-activities-card-text-container{
+    box-sizing: border-box;
+    object-fit: cover;
     font-weight: 700;
     font-size: 14px;
-    padding-left: 2em;
+    padding-left: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
+    text-align: left;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border : 1px solid black; */
+    box-shadow: 2px 2px 5px 2px #F2F2F2; /* offset-x | offset-y | blur-radius | spread-radius | color */
 }
 
 
