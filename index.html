@@ -17,17 +17,27 @@
         <!-- ==================== HEADER START ==================== -->
         <div class="booki-header">
             <!-- SITE TITLE -->
-                <img class="booki-header-site-logo" src="images/logo/Booki.png" alt="Booki">
+            <div class="booki-header-logo">
+                <div class="booki-header-site-logo"><img id="booki-header-site-logo-img" src="images/logo/Booki.png" alt="Booki"></div>
+            </div>
+                
             <!-- NAVBAR -->
-            <nav>
-                <div class="booki-header-navbar">
+            <div class="booki-header-navbar">
+                <nav class="booki-header-navbar">
                     <div class="booki-header-link">Hébergements</div>
                     <div class="booki-header-link">Activités</div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
 
         
+    </header>
+
+
+
+    <main>
+
+
         <!-- ==================== RECHERCHE ==================== -->
         <div class="booki-header-search">
             <div class="booki-header-search-main">
@@ -52,7 +62,10 @@
                     </div>
                     <!-- SEARCH BUTTON -->
                     <div class="booki-header-search-main-search-searchbtn">
-                        <div>Rechercher</div>
+                        <div>
+                            <span class="booki-header-search-main-search-searchbtn-text">Rechercher</span>
+                            <span class="booki-header-search-main-search-searchbtn-icon"><img src="images/logo/search.svg" /></span>
+                        </div>
                     </div>
                 </div>
 
@@ -65,35 +78,37 @@
         <div class="booki-header-filters">
             
                 <div class="booki-header-filters-title">
-                    <div>Filtres</div>
+                    Filtres
                 </div>
 
-                
-                <div class="booki-header-filters-btn" id="test">
-                        <img class="booki-header-filter-btn-img" src="images/logo/economique.png" alt="Économique">
+                <div class="booki-header-filters-btns">
+                    <div class="booki-header-filters-btn">
+                        <img class="booki-header-filter-btn-img" src="images/logo/economique.svg" alt="Économique">
                         <div class="booki-header-filter-btn-txt">Économique</div>
+                    </div>
+                    <div class="booki-header-filters-btn">
+                        <img class="booki-header-filter-btn-img" src="images/logo/familial.svg" alt="Familial">
+                        <div class="booki-header-filter-btn-txt">Familial</div>
+                    </div>
+                    <div class="booki-header-filters-btn">
+                        <img class="booki-header-filter-btn-img" src="images/logo/romantique.svg" alt="Romantique">
+                        <div class="booki-header-filter-btn-txt">Romantique</div>
+                    </div>
+                    <div class="booki-header-filters-btn">
+                        <img class="booki-header-filter-btn-img" src="images/logo/animaux.svg" alt="Animaux">
+                        <div class="booki-header-filter-btn-txt">Animaux autorisés</div>
+                    </div>  
                 </div>
-                <div class="booki-header-filters-btn">
-                    <img class="booki-header-filter-btn-img" src="images/logo/familial.png" alt="Familial">
-                    <div class="booki-header-filter-btn-txt">Familial</div>
-                </div>
-                <div class="booki-header-filters-btn">
-                    <img class="booki-header-filter-btn-img" src="images/logo/romantique.png" alt="Romantique">
-                    <div class="booki-header-filter-btn-txt">Romantique</div>
-                </div>
-                <div class="booki-header-filters-btn">
-                    <img class="booki-header-filter-btn-img" src="images/logo/animaux.png" alt="Animaux">
-                    <div class="booki-header-filter-btn-txt">Animaux autorisés</div>
-                </div>  
+                
         </div>
 
-    </header>
 
 
 
 
 
-    <main>
+    </div>
+
 
     <!-- ==================================================================================== -->   
     <!-- ======================================= MAIN ======================================= -->
@@ -382,30 +397,38 @@
     <!-- ======================================= FOOTER ======================================= -->
     <!-- ====================================================================================== -->  
 
-        <nav>
+
             <!-- NAVBAR -->
-            <div class="booki-footer-navbar">
-                
-                <div class="booki-footer-navbar-about">
-                    <div class="booki-footer-navbar-title">A propos</div>
-                    <div class="booki-footer-navbar-link">Fonctionnement du site</div>
-                    <div class="booki-footer-navbar-link">Conditions générales</div>
-                    <div class="booki-footer-navbar-link">Données et confidentialité</div>
+
+            <nav>
+
+                <div class="booki-footer-navbar">
+
+
+                    <div class="booki-footer-navbar-about">
+                        <div class="booki-footer-navbar-title">A propos</div>
+                        <div class="booki-footer-navbar-link">Fonctionnement du site</div>
+                        <div class="booki-footer-navbar-link">Conditions générales</div>
+                        <div class="booki-footer-navbar-link">Données et confidentialité</div>
+                    </div>
+
+                    <div class="booki-footer-navbar-housing">
+                        <div class="booki-footer-navbar-title">Nos hébergement</div>
+                        <div class="booki-footer-navbar-link">Charte qualité</div>
+                        <div class="booki-footer-navbar-link">Proposer votre hôtel</div>
+                    </div>
+
+                    <div class="booki-footer-navbar-help">
+                        <div class="booki-footer-navbar-title">Assistance</div>
+                        <div class="booki-footer-navbar-link">Centre d'aide</div>
+                        <div class="booki-footer-navbar-link">Nous contacter</div>
+                    </div>
                 </div>
 
-                <div class="booki-footer-navbar-housing">
-                    <div class="booki-footer-navbar-title">Nos hébergement</div>
-                    <div class="booki-footer-navbar-link">Charte qualité</div>
-                    <div class="booki-footer-navbar-link">Proposer votre hôtel</div>
-                </div>
 
-                <div class="booki-footer-navbar-help">
-                    <div class="booki-footer-navbar-title">Assistance</div>
-                    <div class="booki-footer-navbar-link">Centre d'aide</div>
-                    <div class="booki-footer-navbar-link">Nous contacter</div>
-                </div>
-            </div>
-        </nav>
+            </nav>
+
+
     </footer>
 
 
