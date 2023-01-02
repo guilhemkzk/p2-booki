@@ -20,25 +20,20 @@ header{
 }
 
 footer{
-    /* position: absolute; */
-    margin-bottom: 7px;
-    margin-left: 48px;
-    margin-right: 53px;
-    margin-top: 75px;
-    left: 3.33%;
-    right: 3.68%;
-    top: 0%;
-    bottom: -10.84%;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
     background: #F2F2F2;
     max-width: 100%;
 }
 
 h2 {
-     margin: 0;
+     margin: 0rem 0rem;
 }
 
 p {
-    margin: 0.5em 0;
+    margin: 0.5rem 0;
     font-size: 13px;
 }
 
@@ -58,7 +53,7 @@ a{
 .booki-header{
     display: flex;
     justify-content: space-between;
-    margin-top: 3em;
+    margin-top: 3rem;
     max-width: 100%;
 
 }
@@ -69,17 +64,15 @@ a{
 }
 
 #booki-header-site-logo-img{
-    width: 61.09px;
+    width: 61px;
     height: 19px;
-    left: 0px;
-    top: 0px;
-    padding: 1em 0;
+    padding: 1rem 0;
 }
 
 
 .booki-header-link{
-    margin: 1em 1em;
-    padding: 1em 0;
+    margin: 1rem 1rem;
+    padding: 1rem 0;
     font-size: 0.9rem;
 }
 
@@ -98,10 +91,10 @@ a{
 .booki-header-search-main-textbloc-subtitle{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    margin-bottom: 20px;
-    font-size: 12px;
+    margin-bottom: 1.1rem;
+    font-size: 14px;
     line-height: 19px;
-    padding-top: 0.2em;
+    padding-top: 0.2rem;
 
 
 }
@@ -182,8 +175,8 @@ a{
 }
 
 .booki-header-search-main-search-searchbtn-text{
-    padding-left : 1em;
-    padding-right: 1em;
+    padding-left : 1rem;
+    padding-right: 1rem;
 }
 
 span.booki-header-search-main-search-searchbtn-icon{
@@ -201,7 +194,7 @@ span.booki-header-search-main-search-searchbtn-icon{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 2em;
+    margin-top: 2rem;
     max-width: 80%;
     width: 80%;
 }
@@ -221,7 +214,7 @@ span.booki-header-search-main-search-searchbtn-icon{
     font-size: 18px;
     line-height: 21px;
     text-align: center; 
-    margin-right: 2em;
+    margin-right: 2rem;
 }
 
 
@@ -229,7 +222,7 @@ span.booki-header-search-main-search-searchbtn-icon{
     border: 2px solid #DEEBFF;
     background-color: #FFFFFF;
     border-radius: 25px;
-    padding: 0.7em 0.7em;
+    padding: 0.7rem 0.7rem;
     font-weight: 700;
     font-size: 15px;
     line-height: 21px;
@@ -245,8 +238,8 @@ span.booki-header-search-main-search-searchbtn-icon{
 
 
 .booki-header-filter-btn-img{
-    padding-left: 0.4em;
-    padding-right: 0.4em;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
 }
 
 
@@ -271,12 +264,12 @@ span.booki-header-search-main-search-searchbtn-icon{
 }
 
 .booki-home-housing-card-ratting-star{
-    padding-right : 0.1em;
+    padding-right : 0.1rem;
 }
 
 
 .booki-home-popular-card-ratting-star{
-    padding-right : 0.1em;
+    padding-right : 0.1rem;
 }
 
 
@@ -291,27 +284,27 @@ span.booki-header-search-main-search-searchbtn-icon{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 2rem;
     width: 100%;
 }
 
 .booki-home-info-logo{
-    padding: 0.2em 0.65em;
-    margin-right: 1em;
+    padding: 0.2rem 0.65rem;
+    margin-right: 1rem;
     border: 1px solid #D9D9D9;
     border-radius: 80px;
 }
 
 .booki-home-housing-title{
-    padding-top: 1em;
-    padding-left: 1em;
+    padding-top: 1rem;
+    padding-left: 1rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 
 .booki-home-housing{
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background: #F2F2F2;
     border-radius: 20px;
     flex:0.7;
@@ -323,14 +316,12 @@ span.booki-header-search-main-search-searchbtn-icon{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 .booki-home-housing-card-image-container{
-    /* border-radius: 20px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    /* border: 1px solid black;  */
     width: 100%;
     height: 40%;
 }
@@ -340,7 +331,7 @@ span.booki-header-search-main-search-searchbtn-icon{
     width: 30%;
     height: 50%;
     background: #FFFFFF;
-    margin: 0.5em 0.2em;
+    margin: 0.5rem 0.2rem;
     border-radius: 20px;
     box-shadow: 2px 2px 5px 2px #dddddd; /* offset-x | offset-y | blur-radius | spread-radius | color */
 }
@@ -360,32 +351,32 @@ span.booki-header-search-main-search-searchbtn-icon{
 .booki-home-housing-card-text-container{
     display: flex;
     flex-direction: column;
-    padding-top: 0.2em;
-    padding-left : 1em;
-    padding-bottom: 0.5em;
+    padding-top: 0.2rem;
+    padding-left : 1rem;
+    padding-bottom: 0.5rem;
 }
 
 
 .booki-home-housing-card-title{
     font-weight: 700;
     font-size: 13px;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5rem;
 }
 
 .booki-home-housing-card-price{
     font-size: 11px;
-    padding-bottom: 0.1em;
+    padding-bottom: 0.1rem;
 }
 
 
 .booki-home-housing-card-ratting{
-    padding-top : 0.2em;
+    padding-top : 0.2rem;
     display: flex;
     flex-direction: row;
 }
 
 .booki-home-housing-displaymore{
-    padding-bottom: 0.05em;
+    padding-bottom: 0.05rem;
     padding-left: 1em;
 }
 
@@ -395,9 +386,9 @@ span.booki-header-search-main-search-searchbtn-icon{
 /* ================================================================================================= */
 
 .booki-home-popular{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 2em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
     background: #F2F2F2;
     border-radius: 20px;
     flex:0.3;
@@ -410,9 +401,9 @@ span.booki-header-search-main-search-searchbtn-icon{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
@@ -420,7 +411,7 @@ span.booki-header-search-main-search-searchbtn-icon{
 
 
 .booki-home-popular-title-tendancy{
-    padding: 0.2em;
+    padding: 0.2rem;
 }
 
 
@@ -429,8 +420,8 @@ span.booki-header-search-main-search-searchbtn-icon{
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
-    padding-right: 1em;
-    padding-left: 1em;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 
@@ -439,8 +430,8 @@ span.booki-header-search-main-search-searchbtn-icon{
 .booki-home-popular-card{
     border-radius: 20px;
     background: #FFFFFF;
-    max-height: 8em;
-    max-width: 16em;
+    max-height: 8rem;
+    max-width: 16rem;
     display: flex;
     flex-direction: row;
     box-shadow: 2px 2px 5px 2px #dddddd; /* offset-x | offset-y | blur-radius | spread-radius | color */
@@ -452,17 +443,17 @@ span.booki-header-search-main-search-searchbtn-icon{
     /* border: 1px solid black;  */
     flex: 0.4;
     min-width: 40%;
-    height: 7em;
+    height: 7rem;
 }
 
 .booki-home-popular-card-text-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 0.2em;
-    padding-left: 0.5em;
-    padding-right: 1em; 
-    padding-bottom: 0.5em;
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem; 
+    padding-bottom: 0.5rem;
     flex : 0.6;
     
 }
@@ -476,8 +467,8 @@ span.booki-header-search-main-search-searchbtn-icon{
 .booki-home-popular-card-title{
     font-weight: 700;
     font-size: 13px;
-    padding-top: 0.7em;
-    padding-bottom: 0.5em;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
 }
 
 .booki-home-popular-card-price{
@@ -509,8 +500,8 @@ span.booki-header-search-main-search-searchbtn-icon{
 
 
 .booki-home-activities-title{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-family: 'Raleway';
     font-weight: 700;
     line-height: 26px;
@@ -533,15 +524,9 @@ span.booki-header-search-main-search-searchbtn-icon{
 .booki-home-activities-card{
     border-radius: 20px;
     box-shadow: 2px 2px 5px 2px #F2F2F2; /* offset-x | offset-y | blur-radius | spread-radius | color */
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .booki-home-activities-card-image-container{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch; */
     height: 100%;
     width: 100%;
 }
@@ -560,9 +545,9 @@ span.booki-header-search-main-search-searchbtn-icon{
     object-fit: cover;
     font-weight: 700;
     font-size: 12px;
-    padding-left: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: left;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -583,9 +568,9 @@ span.booki-header-search-main-search-searchbtn-icon{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-bottom: 2em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
     max-width: 100%;
 }
 
@@ -593,11 +578,11 @@ span.booki-header-search-main-search-searchbtn-icon{
 .booki-footer-navbar-title{
     font-size: 14px;
     font-weight: 700;
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 
 .booki-footer-navbar-link{
-    margin: 1em 0em;
+    margin: 1rem 0rem;
     font-size: 14px;
 }
 
