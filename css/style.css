@@ -275,7 +275,7 @@ span.booki-header-search-main-search-searchbtn-icon{
 
 
 /* ================================================================================================= */
-/* ========================================== HEBERGEMENTS ========================================= */
+/* ============================================= HOUSING =========================================== */
 /* ================================================================================================= */
 
 
@@ -382,7 +382,7 @@ span.booki-header-search-main-search-searchbtn-icon{
 
 
 /* ================================================================================================= */
-/* =========================================== POPULAIRES ========================================== */
+/* ============================================= POPULAR =========================================== */
 /* ================================================================================================= */
 
 .booki-home-popular{
@@ -440,10 +440,10 @@ span.booki-header-search-main-search-searchbtn-icon{
 .booki-home-popular-card-image-container{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    /* border: 1px solid black;  */
     flex: 0.4;
     min-width: 40%;
     height: 7rem;
+    max-height: 7rem;
 }
 
 .booki-home-popular-card-text-container{
@@ -651,7 +651,7 @@ span.booki-header-search-main-search-searchbtn-icon{
         width: 100%;
         text-align: center;
         padding : 0px 0px;
-        font-size: 1rem;
+        font-size: 16px;
 
     }
 
@@ -672,7 +672,13 @@ span.booki-header-search-main-search-searchbtn-icon{
         text-align: justify;
         justify-content: center;
         max-width: 80%; 
-  
+        margin-bottom: 0.5rem;
+        font-size: 21px;
+    }
+
+    .booki-header-search-main-textbloc-subtitle{
+        font-size: 15px;
+        margin-bottom: 1.5rem;
     }
 
     .booki-header-search-main-search-searchbar{
@@ -714,8 +720,15 @@ span.booki-header-search-main-search-searchbtn-icon{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 1rem;
+        justify-content: center;
         width: 100%;
+        max-width: 90%;
+    }
+
+    .booki-header-filters-title{
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 1.5rem;
     }
 
 
@@ -731,7 +744,7 @@ span.booki-header-search-main-search-searchbtn-icon{
     .booki-header-filters-btn{
         justify-content: flex-start;
         margin-top: 0.5rem;
-
+        border: 2px solid #D9D9D9;
     }
 
 
@@ -743,7 +756,7 @@ span.booki-header-search-main-search-searchbtn-icon{
     }
 
     .booki-header-filter-btn-txt{
-        font-size: 0.6rem;
+        font-size: 11px;
         text-align: left;
     }
 
@@ -758,10 +771,11 @@ span.booki-header-search-main-search-searchbtn-icon{
     .booki-home-info{
         justify-content: flex-start;
         text-align: justify;
-        max-width: 80%;
+        max-width: 90%;
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 1.5rem;
     }
-
-
 
 /* ======================== HOUSING ======================== */
 
@@ -775,6 +789,8 @@ span.booki-header-search-main-search-searchbtn-icon{
 
     .booki-home-housing-title{
         padding-top: 0rem;
+        font-weight: 800;
+        font-size: 20px;
     }
 
     .booki-home-housing-cards{
@@ -786,6 +802,15 @@ span.booki-header-search-main-search-searchbtn-icon{
         width: 90%;
     }
 
+    .booki-home-housing-card-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .booki-home-housing-card-price{
+        font-size: 14px;
+    }
+
 
     /* ======================== POPULAR ======================== */
 
@@ -794,7 +819,7 @@ span.booki-header-search-main-search-searchbtn-icon{
         border-radius: 0px;
         margin-left : 0%;
         width: 100%;
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
         font-size: 1.2rem;
     }
 
@@ -809,8 +834,19 @@ span.booki-header-search-main-search-searchbtn-icon{
     
     }
 
+    .booki-home-popular-card-image-container{
+        max-height: 8rem;
+        height: 8rem;
+    }
+
     .booki-home-popular-title{
         margin-bottom: 1rem;
+
+    }
+
+    .booki-home-popular-title-text{
+        font-weight: 800;
+        font-size: 20px;
     }
 
     .booki-home-housing-displaymore{
@@ -818,15 +854,21 @@ span.booki-header-search-main-search-searchbtn-icon{
     }
 
     .booki-home-popular-card-title{
-        font-size: 0.9rem;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .booki-home-popular-card-price{
+        font-size: 14px;
     }
 
     /* ======================== ACTIVITES ======================== */
 
     .booki-home-activities-title{
-        font-size: 1.2rem;
         max-width: 30%;
         padding-bottom: 0rem;
+        font-weight: 700;
+        font-size: 20px;
     }
 
     .booki-home-activities{
@@ -847,7 +889,12 @@ span.booki-header-search-main-search-searchbtn-icon{
     }
 
     .booki-home-activities-card{
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .booki-home-activities-card-title{
+        font-size: 16px;
+        font-weight: 700;
     }
 
 
@@ -858,6 +905,18 @@ span.booki-header-search-main-search-searchbtn-icon{
         flex-direction: column;
         width: 100%;
     }
+
+    .booki-footer-navbar-title{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .booki-footer-navbar-link{
+        font-size: 16px;
+
+    }
+
+
 
     footer{
         margin-left: 0rem;
