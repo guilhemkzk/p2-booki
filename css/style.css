@@ -955,9 +955,132 @@ span.booki-header-search-main-search-searchbtn-icon{
   and (width > 600px)
   and (width < 1024px)
 {
-    body { background-color: gray; }
+    body {
+        max-width: 100%;
+        width: 100%;
+        padding : 1rem 3.5rem;
+    
+    }
+
+
+    /* ======================== FILTERS ======================== */
+
+    .booki-header-filters {
+        max-width: 90%;
+        width: 90%;
+    }
+
+    .booki-header-filters-btns {
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    /* ======================== MAIN PAGE ======================== */
+
+    .booki-home-main-page{
+        flex-direction: column;
+    }
+
+    /* ======================== HOUSING ======================== */
+
+    .booki-home-housing-card-title {
+        font-size : 15px;
+        font-weight: 800;
+    }
+
+    .booki-home-housing-card-price {
+        font-size: 13px;
+    }
+
+    .booki-home-housing-displaymore{
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+    /* ======================== POPULAR ======================== */
+
+    .booki-home-popular{
+        margin-left : 0rem;
+    }
+
+    .booki-home-popular-title{
+        padding-bottom: 1.5rem;
+    }
+
+    .booki-home-popular-title-tendancy{
+        padding-right : 1.7rem;
+    }
+
+    .booki-home-popular-title-text{
+        padding-left: 1rem;
+    }
+
+    .booki-home-popular-cards{
+        flex-direction: row;
+        justify-content: space-around;
+        box-sizing: border-box;
+        padding-bottom: 3rem;
+        width: 100%;
+
+    }
+
+    .booki-home-popular-card{
+        max-width: 16rem;
+        width: 16rem;
+        max-height : 8rem;
+        height: 8rem;
+    }
+
+    .booki-home-popular-card-title{
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .booki-home-popular-card-price{
+        font-size: 13px;
+    }
+
+    .booki-home-popular-card-image-container{
+        height: 8rem;
+        max-height: 8rem;
+    }
+
+
+    /* ======================== ACTIVITES ======================== */
+
+    .booki-home-activities{
+        display : flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+    .booki-home-activities-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .booki-home-activities-card{
+        max-width: 20%;
+        width: 20%;
+        max-height: 11rem;
+        height: 11rem;
+    }
+
+    .booki-home-activities-card-title{
+        font-size: 15px;
+    }
+
+    /* ======================== FOOTER ======================== */
+
+    .booki-footer-navbar{
+        padding-right: 10rem;
+    }
 
 
 
+    
 
 }
