@@ -994,7 +994,7 @@ span.booki-header-search-main-search-searchbtn-icon{
 
     .booki-home-housing-displaymore{
         font-size: 17px;
-        font-weight: 800;
+        font-weight: 700;
     }
 
     /* ======================== POPULAR ======================== */
@@ -1054,6 +1054,11 @@ span.booki-header-search-main-search-searchbtn-icon{
         margin-bottom: 4rem;
     }
 
+    .booki-home-activities-title{
+        padding-bottom: 2rem;
+        font-size: 21px
+    }
+
     .booki-home-activities-cards{
         display: flex;
         flex-direction: row;
@@ -1065,8 +1070,8 @@ span.booki-header-search-main-search-searchbtn-icon{
     .booki-home-activities-card{
         max-width: 20%;
         width: 20%;
-        max-height: 11rem;
-        height: 11rem;
+        max-height: 12rem;
+        height: 12rem;
     }
 
     .booki-home-activities-card-title{
