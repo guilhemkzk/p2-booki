@@ -10,10 +10,10 @@
 
 
 body{
+    font-family: 'Raleway', sans-serif;
     margin : 0 auto;
     width : 960px ;
     max-width: 100%;
-    font-family: 'Raleway', sans-serif;
 }
 
 header{
@@ -67,26 +67,22 @@ footer{
 }
 
 .booki-header-search-main-textbloc-title{
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     line-height: 26px;
     font-size: 21px;
 }
 
 .booki-header-search-main-textbloc-subtitle{
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    margin-bottom: 1.1rem;
-    font-size: 14px;
     line-height: 19px;
-    padding-top: 0.4rem;
-
-
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 
 /* ========================================== SEARCH BAR ========================================= */
 
-.booki-header-search{
+.booki-header-search-main{
     max-width: 100%;
 }
 
@@ -138,25 +134,21 @@ footer{
 }
 
 #search-text{
-    font-family: 'Raleway', sans-serif;
-    color: var(--bkground-color);
     font-weight: 700;
     font-size: 16px;
     text-align: center;
-    
-
+    color: var(--bkground-color);
 }
 
 .booki-header-search-main-search-searchbtn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    color: var(--bkground-color);
     background: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0 15px 15px 0;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-    color: var(--bkground-color);
-    font-weight: 700;
 }
 
 .booki-header-search-main-search-searchbtn-text{
@@ -186,7 +178,6 @@ span.booki-header-search-main-search-searchbtn-icon{
 
 
 .booki-header-filters-title{
-    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
@@ -210,14 +201,14 @@ span.booki-header-search-main-search-searchbtn-icon{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--bkground-color);
-    border: 2px solid var(--tertiary-color);
-    border-radius: 25px;
-    padding: 0.7rem 0.7rem;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
+    background-color: var(--bkground-color);
+    border: 2px solid var(--tertiary-color);
+    border-radius: 25px;
+    padding: 0.7rem 0.7rem;
 }
 
 .booki-header-filters-btn:hover{
@@ -279,7 +270,7 @@ span.booki-header-search-main-search-searchbtn-icon{
 }
 
 .booki-home-info-logo{
-    padding: 0.2rem 0.65rem;
+    padding: 0.4rem 0.6rem;
     margin-right: 1rem;
     border: 1px solid #D9D9D9;
     border-radius: 100%;
@@ -458,12 +449,6 @@ span.booki-header-search-main-search-searchbtn-icon{
     
 }
 
-.booki-home-popular-card-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .booki-home-popular-card-title{
     font-weight: 700;
     font-size: 13px;
@@ -495,7 +480,7 @@ span.booki-header-search-main-search-searchbtn-icon{
 
 
 /* ================================================================================================= */
-/* ============================================ ACTIVITES ========================================== */
+/* ============================================ ACTIVITIES ========================================== */
 /* ================================================================================================= */
 
 
@@ -606,7 +591,7 @@ span.booki-header-search-main-search-searchbtn-icon{
   and (width < 400px) {
 
 
-    .booki-header-search{
+    .booki-header-search-main{
         margin: auto 1rem;
     }
     .booki-home-main-page-foot{
