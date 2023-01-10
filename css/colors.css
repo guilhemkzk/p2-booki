@@ -1,6 +1,6 @@
-:root{
-    --primary-color: #0065FC; /* Blue */
-    --secondary-color: #F2F2F2; /* Grey */
-    --tertiary-color: #DEEBFF; /* Light blue (hover) */
-    --bkground-color: #FFFFFF; /* White */
+:root {
+  --primary-color: #0065fc; /* Blue */
+  --secondary-color: #f2f2f2; /* Grey */
+  --tertiary-color: #deebff; /* Light blue (hover) */
+  --bg-color: #ffffff; /* White */
 }
