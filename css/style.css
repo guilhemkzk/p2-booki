@@ -55,13 +55,12 @@ footer {
   border-top: 2px var(--bg-color) solid;
 }
 
-.booki-header-link a:hover {
-  color: var(--primary-color);
+.booki-header-link:hover {
+  border-top: 2px var(--primary-color) solid;
 }
 
-.booki-header-link:hover {
+.booki-header-link:hover a {
   color: var(--primary-color);
-  border-top: 2px var(--primary-color) solid;
 }
 
 .booki-header-search-main-textbloc-title {
@@ -683,7 +682,8 @@ span.booki-header-search-main-search-searchbtn-icon {
 
   .booki-header-filter-btn-txt {
     font-size: 11px;
-    text-align: left;
+    text-align: center;
+    padding-right: 0.1rem;
   }
 
   /* ====================================== MAIN PAGE =============================================== */
