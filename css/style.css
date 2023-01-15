@@ -539,7 +539,7 @@ span.booki-header-search-main-search-searchbtn-icon {
 /* ================================================================================================= */
 /* ================================================================================================= */
 
-@media screen and (width < 768px) {
+@media screen and (any-pointer: coarse) and (width < 768px) {
   /* General page layout */
 
   .booki-header-search-main,
@@ -865,7 +865,7 @@ span.booki-header-search-main-search-searchbtn-icon {
 /* ================================================================================================= */
 /* ================================================================================================= */
 
-@media screen and (width >= 768px) and (width < 992px) {
+@media screen and (any-pointer: coarse) and (width >= 768px) and (width < 992px) {
   body {
     max-width: 100%;
     width: 100%;
