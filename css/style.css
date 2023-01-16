@@ -8,9 +8,8 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  margin: 0 auto;
-  width: 1400px;
-  max-width: 100%;
+  margin: 0 2rem;
+  max-width: 1400px;
 }
 
 header {
@@ -112,6 +111,11 @@ footer {
   font-size: 16px;
   text-align: center;
   border: 0 var(--secondary-color) solid;
+  padding: 1rem 0;
+}
+
+input:focus {
+  outline: none;
 }
 
 .booki-header-search-main-search-searchbar {
@@ -158,8 +162,8 @@ span.booki-header-search-main-search-searchbtn-icon {
   flex-direction: row;
   align-items: center;
   margin-top: 2rem;
-  max-width: 80%;
-  width: 80%;
+  max-width: 100%;
+  width: 100%;
 }
 
 .booki-header-filters-title {
@@ -230,6 +234,10 @@ span.booki-header-search-main-search-searchbtn-icon {
 .booki-home-popular-card-ratting-star-empty {
   color: var(--secondary-color);
   padding-right: 0.1rem;
+}
+
+.euro {
+  font-weight: bold;
 }
 
 /* ================================================================================================= */
@@ -343,9 +351,10 @@ span.booki-header-search-main-search-searchbtn-icon {
 .booki-home-popular {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  align-items: center;
+  margin: 1rem 0;
   margin-left: 2rem;
+  padding: 2rem 1rem;
   background: var(--secondary-color);
   border-radius: 20px;
   flex: 0.3;
@@ -355,12 +364,9 @@ span.booki-header-search-main-search-searchbtn-icon {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  font-weight: 700;
-  font-size: 20px;
-  padding-top: 2rem;
-  padding-right: 1rem;
-  padding-left: 0.5rem;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  width: 90%;
 }
 
 .booki-home-popular-title-text {
@@ -371,16 +377,14 @@ span.booki-header-search-main-search-searchbtn-icon {
 .booki-home-popular-title-tendancy {
   color: var(--primary-color);
   padding: 0.2rem;
-  padding-left: 1rem;
 }
 
 .booki-home-popular-cards {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100%;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  align-items: center;
+  height: 90%;
   padding-bottom: 0.5rem;
 }
 
@@ -388,8 +392,7 @@ span.booki-header-search-main-search-searchbtn-icon {
   border-radius: 20px;
   background: var(--bg-color);
   max-height: 8rem;
-  max-width: 85%;
-  margin-left: 1.5rem;
+  width: 90%;
   display: flex;
   flex-direction: row;
   box-shadow: 2px 2px 5px 2px #dddddd;
@@ -400,7 +403,7 @@ span.booki-header-search-main-search-searchbtn-icon {
   border-bottom-left-radius: 20px;
   flex: 0.4;
   min-width: 40%;
-  height: 7rem;
+  height: 8rem;
 }
 
 .booki-home-popular-card-text-container {
@@ -541,6 +544,10 @@ span.booki-header-search-main-search-searchbtn-icon {
 
 @media screen and (any-pointer: coarse) and (width < 768px) {
   /* General page layout */
+
+  body {
+    margin: 0 auto;
+  }
 
   .booki-header-search-main,
   .booki-home-main-page-foot,
@@ -710,6 +717,8 @@ span.booki-header-search-main-search-searchbtn-icon {
     margin-top: 0;
     background: var(--bg-color);
     border-radius: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   .booki-home-housing-title {
@@ -725,6 +734,7 @@ span.booki-header-search-main-search-searchbtn-icon {
 
   .booki-home-housing-card {
     width: 95%;
+    margin: 0.5rem 0;
   }
 
   .booki-home-housing-card-title {
@@ -742,15 +752,18 @@ span.booki-header-search-main-search-searchbtn-icon {
     font-size: 1.2rem;
     background: var(--secondary-color);
     border-radius: 0;
-    margin-left: 0;
+    margin: 0;
     width: 100%;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
+  }
+
+  .booki-home-popular-title-tendancy {
+    padding-right: 1rem;
   }
 
   .booki-home-popular-cards {
     align-items: center;
     padding-left: 0;
-    padding-right: 1.5rem;
   }
 
   .booki-home-popular-card {
@@ -766,9 +779,8 @@ span.booki-header-search-main-search-searchbtn-icon {
 
   .booki-home-popular-title {
     margin-bottom: 1.5rem;
-    margin-right: 0.5rem;
-    padding-top: 1.5rem;
     justify-content: space-between;
+    width: 100%;
   }
 
   .booki-home-popular-title-text {
@@ -798,7 +810,8 @@ span.booki-header-search-main-search-searchbtn-icon {
     padding-bottom: 0;
     font-weight: 700;
     font-size: 22px;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .booki-home-activities {
@@ -810,8 +823,8 @@ span.booki-header-search-main-search-searchbtn-icon {
   .booki-home-activities-cards {
     display: flex;
     flex-direction: column;
-    max-width: 90%;
-    width: 90%;
+    max-width: 95%;
+    width: 95%;
     margin-bottom: 1rem;
   }
 
@@ -867,9 +880,10 @@ span.booki-header-search-main-search-searchbtn-icon {
 
 @media screen and (any-pointer: coarse) and (width >= 768px) and (width < 992px) {
   body {
+    margin: 0 auto;
+    padding: 0 2rem;
     max-width: 100%;
     width: 100%;
-    padding: 0rem 3.5rem;
   }
 
   /* ======================== SEARCH ======================== */
@@ -931,28 +945,31 @@ span.booki-header-search-main-search-searchbtn-icon {
 
   .booki-home-popular {
     margin-left: 0;
+    margin-right: 0;
     margin-top: 2rem;
+    padding: 2rem 0.5rem;
   }
 
   .booki-home-popular-title {
     padding-bottom: 1.5rem;
     justify-content: space-between;
-    padding-left: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
   }
 
   .booki-home-popular-title-tendancy {
-    padding-right: 1rem;
+    padding-right: 0;
   }
 
   .booki-home-popular-title-text {
-    padding-left: 1rem;
+    padding-left: 0;
   }
 
   .booki-home-popular-cards {
     box-sizing: border-box;
     width: 100%;
     max-width: 100%;
-    padding-bottom: 3rem;
     padding-right: 2rem;
     padding-left: 2rem;
     display: flex;
@@ -1013,5 +1030,12 @@ span.booki-header-search-main-search-searchbtn-icon {
 
   .booki-home-activities-card-title {
     font-size: 15px;
+  }
+}
+
+@media screen and (width > 1400px) {
+  body {
+    margin: 0 auto;
+    padding: 0 2rem;
   }
 }
